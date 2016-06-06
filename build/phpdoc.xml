@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>phpBuild</title>
+    <parser>
+        <target>output</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>api</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>{APP_ROOT}/build/logs/phpdoc.log</default>
+            <errors>{APP_ROOT}/build/logs/phpdoc.errors.log</errors>
+        </paths>
+    </logging>
+    <transformations>
+        <template name="responsive-twig" />
+    </transformations>
+    <files>
+        <directory>{APP_ROOT}/src</directory>
+    </files>
+</phpdoc>

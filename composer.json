@@ -1,0 +1,28 @@
+{
+  "name": "nilsabegg/phpBuild",
+  "type": "php build template",
+  "description": "A template for automated code tests and inspections via Ant and several PHP tools.",
+  "keywords": ["PHP, Jenkins, PHPUnit"],
+  "homepage": "http://nilsabegg.com/php-build-template",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nils Abegg",
+      "email": "nils.abegg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "require-dev": {
+    "pdepend/pdepend" : "2.2.*",
+    "squizlabs/php_codesniffer": "2.*",
+    "phploc/phploc": "*",
+    "phpmd/phpmd": "2.4.*",
+    "sebastian/phpcpd": "*",
+    "phpunit/phpunit": "5.4.*",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phpmetrics/phpmetrics": "1.*",
+    "mockery/mockery": "0.9.*"
+  }
+}
