@@ -1,5 +1,5 @@
 {
-  "name": "nilsabegg/phpBuild",
+  "name": "nilsabegg/phpbuild",
   "type": "php build template",
   "description": "A template for automated code tests and inspections via Ant and several PHP tools.",
   "keywords": ["PHP, Jenkins, PHPUnit"],
