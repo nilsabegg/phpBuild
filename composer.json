@@ -3,8 +3,6 @@
   "type": "php build template",
   "description": "A template for automated code tests and inspections via Ant and several PHP tools.",
   "keywords": ["PHP, Jenkins, PHPUnit"],
-  "homepage": "http://nilsabegg.com/php-build-template",
-  "license": "MIT",
   "authors": [
     {
       "name": "Nils Abegg",
