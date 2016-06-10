@@ -1,8 +1,8 @@
 {
   "name": "nilsabegg/phpbuild",
-  "type": "php build template",
+  "type": "settings",
   "description": "A template for automated code tests and inspections via Ant and several PHP tools.",
-  "keywords": ["PHP, Jenkins, PHPUnit"],
+  "keywords": ["PHP", "Jenkins", "PHPUnit"],
   "authors": [
     {
       "name": "Nils Abegg",
